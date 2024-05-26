@@ -1,0 +1,24 @@
+### Register a new user
+###
+GET http://localhost:3010/
+
+
+###
+POST http://localhost:3010/register
+Content-Type: application/json
+
+{
+  "userName": "manoj26322",
+  "password": "manojk"
+}
+
+###
+
+
+POST http://localhost:3010/login
+Content-Type: application/json
+
+{
+  "userName": "manoj26322",
+  "password": "manojk"
+}
