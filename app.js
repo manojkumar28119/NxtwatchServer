@@ -10,7 +10,7 @@ const cors = require("cors");
 const databasePath = path.join(__dirname, "UserData.db");
 
 const app = express();
-
+ 
 app.use(cors());
 
 
